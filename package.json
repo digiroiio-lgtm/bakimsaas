@@ -1,11 +1,12 @@
 {
   "name": "bakimsaas",
-  "version": "1.0.0",
-  "description": "BakimSaaS web uygulaması",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "flightpure"
+  ],
   "scripts": {
-    "start": "node index.js"
-  },
-  "author": "digiroiio-lgtm",
-  "license": "MIT"
+    "start": "npm run start -w flightpure",
+    "build": "npm run build -w flightpure",
+    "dev": "npm run dev -w flightpure"
+  }
 }
