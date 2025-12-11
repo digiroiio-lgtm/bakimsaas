@@ -1,0 +1,11 @@
+{
+  "name": "bakimsaas",
+  "version": "1.0.0",
+  "description": "BakimSaaS web uygulaması",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "digiroiio-lgtm",
+  "license": "MIT"
+}
