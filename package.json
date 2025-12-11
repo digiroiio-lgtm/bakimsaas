@@ -8,5 +8,8 @@
     "start": "npm run start -w flightpure",
     "build": "npm run build -w flightpure",
     "dev": "npm run dev -w flightpure"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
